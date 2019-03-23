@@ -25,7 +25,7 @@ def contact(request):
 
     contact.save()
 
-    # Send email
+    # Send email, used fake email rumen@gmail.com
     send_mail(
       'Property listing inquiry',
       'There has been inquiry for ' + listing + '. Sign into admin panel for more info',

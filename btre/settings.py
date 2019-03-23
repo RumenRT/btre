@@ -141,9 +141,9 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
 
-# Email Config
+# Email Config, used fake email host user
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'rumen@gmail.com'
+EMAIL_HOST_USER = 'rumen@gmail.com' 
 EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS=True
